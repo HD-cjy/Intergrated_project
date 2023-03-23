@@ -8,7 +8,8 @@ import Library from './chapter_03/Library'; //index에 이거 추가
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Library /> //index에 이거 변경 
+    <Library /> 
+    {/* index에 이거 변경  */}
   </React.StrictMode>
 );
 
