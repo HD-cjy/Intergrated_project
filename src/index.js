@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library'; //index에 이거 추가 
+import Clock from './chapter_04/Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Library /> 
+    <Clock/>
     {/* index에 이거 변경  */}
   </React.StrictMode>
 );
