@@ -1,0 +1,28 @@
+@import "rest.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.media-info-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: salmon;
+}
+
+@media screen and (max-width: 700px) {
+  .media-info-msg {
+    opacity: 0;
+  }
+}
