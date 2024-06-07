@@ -43,8 +43,33 @@ main {
   background-color: #fe6f0f;
   padding: 10px 15px;
   border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
   color: white;
   position: fixed;
   bottom: 120px;
   right: 20px;
+}
+.write-btn:hover {
+  background-color: rgba(254, 111, 15, 0.8);
+}
+@keyframes icons-floating {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.footer-incons__img {
+  width: 30px;
+}
+.footer-incons:hover .footer-incons__img {
+  animation: 2s icons-floating;
 }
