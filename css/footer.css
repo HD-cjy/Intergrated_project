@@ -1,41 +1,41 @@
-/* main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-} */
-
 footer {
-  margin-top: 40px;
-  margin-bottom: 24px;
-}
-.keybord-row {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 5px;
-}
-.keybord-block {
-  margin-top: 10px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border: 3px solid #d3d6da;
-  width: 60px;
-  height: 80px;
-  border-radius: 15%;
+  flex-direction: column;
+  padding-bottom: 10px;
+  gap: 8px;
 }
 
-.backspace__img {
-  width: 40px;
+.keyboard-row {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
-.keybord-block {
+
+.keyboard-column {
+  width: 45px;
+  height: 60px;
+  background-color: #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
-.keybord-block.backspace {
-  width: 100px;
+
+.keyboard-column.wide {
+  font-size: small;
+  width: 70px;
 }
-.keybord-block.enter {
-  width: 100px;
+
+.back-space-icon {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

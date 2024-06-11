@@ -1,23 +1,30 @@
 main {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 0px;
+  gap: 5px;
+}
+
+#timer {
+  font-size: large;
+  font-weight: bold;
 }
 
 .board-row {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 5px;
 }
-.board-block {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid #d3d6da;
+
+.board-column {
   width: 60px;
   height: 60px;
+  border: 3px solid #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
 }
