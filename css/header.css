@@ -1,0 +1,116 @@
+/* .sub_button {
+  border: solid 2px black;
+  border-radius: 2em;
+  font-weight: bolder;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #a3a3a3;
+}
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 30px;
+  height: 30px;
+}
+.left-icon {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 30px;
+  height: 30px;
+}
+
+.left-icon__img {
+  width: 40px;
+}
+
+.main-name {
+  font-size: x-large;
+  font-weight: 600;
+  display: flex;
+  margin-left: 250px;
+  vertical-align: middle;
+}
+
+.right-icon {
+  display: flex;
+  margin: 2px;
+  justify-content: start;
+  flex-direction: row;
+}
+.right {
+  width: 40px;
+  display: flex;
+  margin: 2px;
+  justify-content: end;
+  flex-direction: row;
+}
+.sub_button {
+  align-items: center;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+} */
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #a3a3a3;
+}
+
+/* 왼쪽 상단부분 */
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 10px;
+  width: 347.97px;
+}
+
+.left-icon__img {
+  width: 40px;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 오른쪽 부분 */
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-icon__img {
+  width: 40px;
+  margin-left: 4px;
+}
+.right-icon__subbutton {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 2em;
+  padding: 10px 15px; /* 패딩을 줄임 */
+  text-decoration: none;
+  line-height: 1; /* 라인 높이를 조정하여 텍스트가 가운데 오도록 */
+}
