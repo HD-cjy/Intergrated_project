@@ -1,4 +1,4 @@
-const 정답 = "APPLE";
+const 정답 = "SWEET"; //대문자만 가능
 
 let attempts = 0;
 let index = 0;
