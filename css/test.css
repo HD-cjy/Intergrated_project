@@ -1,0 +1,11 @@
+/* test 스타일 시트 */
+h1 {
+  display: block;
+}
+h2 {
+  font-size: small;
+}
+img {
+  width: 120px;
+  height: 100px;
+}
