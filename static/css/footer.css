@@ -26,6 +26,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .keyboard-column.wide {
