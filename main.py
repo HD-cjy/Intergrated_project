@@ -27,4 +27,10 @@ def put_memo(memo_id: str, req_memo: Memo):
             return {'message': '성공했습니다.'}
     return {'message': '그런 메모는 없습니다.'}
 
+@app.delete("/memo/{memo_id}")
+def delete_memo(memo_id: str):
+    for index, memo in enumerate(memos):
+        if memo.id == memo_id:
+            memos.pop(index)
+            return '성공했습니다.'
 app.mount("/", StaticFiles(directory='static', html=True), name='static')
