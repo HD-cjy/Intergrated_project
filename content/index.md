@@ -5,6 +5,7 @@ dg-home: true
 dg-publish: true
 title: Home
 permalink: /
+tag:
 ---
 # index 테스트 파일입니다.
 
